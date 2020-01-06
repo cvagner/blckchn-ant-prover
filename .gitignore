@@ -1,0 +1,17 @@
+# Logs
+logs
+*.log
+
+# Dependencies
+node_modules
+
+# truffle build
+# TODO voir si nécessaire
+#build
+smart-contracts/.env
+
+# webpack build
+dist
+
+# IntelliJ IDE
+.idea
