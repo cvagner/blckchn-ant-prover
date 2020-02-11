@@ -20,10 +20,12 @@ rm -rf ~/.config/Ganache/
 ```
 
 ### Configuration Metamask
+
 * Configurer et choisir le réseau "development" : http://localhost:7545
 * Importer le premier compte de Ganache à partir de la clé privée (cliquer sur la clé à côté du compte dans Ganache) et le sélectionner
 
 ### Déploiement des Smart Contracts
+
 ```shell
 cd ~/projets/atolcd/blckchn-ant-prover/smart-contracts
 truffle migrate --network development
@@ -31,6 +33,7 @@ truffle migrate --network development --reset
 ```
 
 ### Client
+
 ```shell
 cd ~/projets/atolcd/blckchn-ant-prover/front
 npm run serve
@@ -50,10 +53,11 @@ Exemple avec le réseau testnet [Ropsten](https://ropsten.etherscan.io/).
 Se créer un compte, un projet puis récupérer le `PROJECT ID`.
 
 #### Fichier de configuration
+
 Créer le fichier `smart-contracts/.env` avec le contenu suivant :
 ```
-METAMASK_MNEMONIC="Le mnemonic Metamask (Paramètres, Sécurité et confidentialité, Révéler les mots Seed)"
-INFURA_PROJECT_ID="Le PROJECT ID Infura"
+export METAMASK_MNEMONIC="Le mnemonic Metamask (Paramètres, Sécurité et confidentialité, Révéler les mots Seed)"
+export INFURA_PROJECT_ID="Le PROJECT ID Infura"
 ```
 
 ### Déploiement des Smart Contracts
