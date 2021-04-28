@@ -10,13 +10,20 @@ Avec sa propre blockchain Ethereum de tests / développements [Ganache](https://
 
 ### Blockchain Ganache
 
-Après avoir téléchargé le binaire [Ganache](https://www.trufflesuite.com/ganache), ici déposé dans `~/bin` :
+Après avoir téléchargé le binaire [Ganache](https://www.trufflesuite.com/ganache), déposé dans `~/bin` et rendu exécutable :
 
 ```shell
 # Nettoyage éventuel d'une ancienne configuration
 rm -rf ~/.config/Ganache/
 # Lancement de la blockchain (suivre les instructions)
 ~/bin/ganache-*-linux-x86_64.AppImage
+```
+
+### Installation des outils
+
+`truffle` est nécessaire pour la suite :
+```shell
+npm install -g truffle
 ```
 
 ### Configuration Metamask
