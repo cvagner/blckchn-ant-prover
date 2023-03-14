@@ -2,7 +2,7 @@
 
 [Blockchain Anteriority Prover](https://github.com/cvagner/blckchn-ant-prover) - Preuve d'antériorité de contenus* dans une blockchain.
 
-Une démonstration est disponible [ici](https://cvagner.keybase.pub/blckchn/ancrage/).
+Une démonstration est disponible [ici](https://cvagner.github.io/blckchn-ant-prover/).
 
 ## Démarrage rapide
 
